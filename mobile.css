@@ -1,0 +1,123 @@
+
+@media screen and (max-width:800px){
+    body {
+        margin: auto;
+        padding: 0px;
+      }
+    #containerA .logo .aca, #containerA .logo .col{
+        display: none;
+    }
+    #containerA .menu ul{
+        display:none;
+    }
+
+    #containerB{
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 32px 0px;
+        background-color: #d7d7d7;
+        flex-direction: column;
+    }
+    #containerB img{
+        width: 100%;
+    }
+    #containerB .learn {
+        padding:32px 16px;
+    }
+    #containerB .learn h3 {
+        color: #4a4a4a;
+        padding-bottom: 24px;
+    }
+    #containerB .learn button{
+        color: white;
+        background-color: #4a4a4a;
+        border: unset;
+        margin: auto 24px;
+    }
+
+    #containerC{
+        display: flex;
+        align-items: center;
+        padding: 16px 16px 32px 16px;
+    }
+    #containerC .containerC1{
+        display: none;
+    }
+    #containerC .containerC2 img{
+        width: 100%;
+    }
+    #containerC .containerC2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #containerC .containerC2 img{
+        width: 100%;
+    }
+    #containerC .containerC2 .img-containerC2, #containerC .containerC2 .img-containerC2-last{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+    #containerC .containerC2 .text{
+        width: 100%;
+        margin-bottom: 64px;
+    }
+    #containerC .containerC2 .text h3,  #containerC .containerC2 .text p{
+        margin-left:16px;
+    }
+    #containerC .containerC2 .text h3 {
+        margin-top: 64px;
+    }
+    
+    #containerD {
+        display: flex;
+        padding: 32px 16px 32px 16px;
+        background-color: #e9e9e9;
+    }
+    #containerD .containerD2, #containerD .containerD3{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    #containerD .containerD2 img, #containerD .containerD2 p{
+        display: none;
+        
+    }
+    #containerD .containerD3 img, #containerD .containerD3 p{
+        display: none;
+    }
+    #containerD .containerD2 .list, #containerD .containerD3 .list{
+        padding: 0;
+        margin: 0;
+    }
+    #containerE {
+        margin-bottom: 24px;
+        padding: 0;
+    }
+    #containerE .containerE2 h1{
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+    #containerE .containerE2 .video{
+        width: 100%;
+        margin: 0;
+    }
+    #containerE .containerE2 .video video{
+        margin: 0;
+    }
+    #containerE .containerE2 .video h3, #containerE .containerE2 .video p{
+        display: none;
+    }
+    #containerE .containerE2 .content {
+        display: none;
+    }
+    footer p{
+        margin: 16px;
+    }
+    footer span{
+        display: none;
+    }
+}

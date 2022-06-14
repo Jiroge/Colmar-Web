@@ -1,0 +1,188 @@
+* {
+    /* border: 1px solid black; */
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(245, 7, 7); */
+  }
+
+  body {
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 24px 0 24px;
+  }
+
+  header {
+    height: 64px;
+    top: 0;
+  }
+
+#containerA{
+    display:flex;
+    justify-content:space-between;
+    background-color: white;
+}
+#containerA .logo{
+    display:flex;
+    margin: auto 0;
+    height: 32px;
+}
+#containerA .logo .col{
+    color: #4a4a4a;
+}
+#containerA .logo .aca{
+    color: #868686;
+}
+#containerA .logo p, .logo img{
+    margin: auto 0;
+}
+#containerA .menu ul{
+    display:flex;
+    padding: 0;
+    list-style:none;
+}
+#containerA .menu ul li{
+    padding:16px;
+}
+
+#containerB{
+    display: flex;
+    align-items: center;
+    padding: 32px 24px 32px 0px;
+    background-color: #d7d7d7;
+}
+#containerB img{
+    width: 60%;
+}
+#containerB .learn {
+    margin-left: 24px;
+}
+#containerB .learn h1 {
+    color: #4a4a4a;
+}
+#containerB .learn h3 {
+    color: #4a4a4a;
+    margin-top: 24px;
+}
+#containerB .learn button{
+    color: white;
+    background-color: #4a4a4a;
+    border: unset;
+    padding: 8px 100px;
+    margin: 24px auto 32px auto;
+}
+
+#containerC{
+    display: flex;
+    align-items: center;
+    padding: 32px 0px 32px 0px;
+}
+#containerC .containerC1{
+    width: 60%;
+}
+#containerC .containerC1 img{
+    width: 100%;
+    margin-bottom: 32px;
+}
+#containerC .containerC1 h1 {
+    margin-bottom: 24px;
+}
+#containerC .containerC2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+#containerC .containerC2 img{
+    width: 35%;
+    padding: 16px; 
+}
+#containerC .containerC2 .img-containerC2{
+    display: flex;
+    align-items: center;
+}
+#containerC .containerC2 .text{
+    width: 65%;
+}
+#containerC .containerC2 .img-containerC2-last{
+    display: flex;
+    align-items: center;
+    background-color: #c2c2c2;
+}
+
+#containerD {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 0px 32px 0px;
+    background-color: #e9e9e9;
+}
+#containerD .containerD2, #containerD .containerD3 {
+    padding: 16px 48px 16px 48px;
+    display: flex;
+    justify-content: space-between;  
+}
+#containerD .list{
+    margin: 0px 16px 0px 16px;
+    padding-bottom: 24px;
+    background-color: white;
+}
+#containerD img {
+    width: 100%;
+}
+#containerD .containerD2 h3, #containerD .containerD3 h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#containerD .list p span{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#containerD .list h3, #containerD .list p {
+    margin-left: 16px;
+}
+
+#containerE {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #f7f5f5;
+}
+#containerE .containerE2{
+    display: flex;
+    margin: 32px 0px 0px 0px;  
+    width: 100%;
+}
+#containerE .containerE2 .video{
+    width: 60%;
+    margin-right: 24px;
+}
+#containerE .containerE2 video{
+    width: 100%;
+    margin-bottom: 24px;
+}
+#containerE .containerE2 .video h3{
+    margin-bottom: 8px;
+}
+#containerE .containerE2 .content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+#containerE .containerE2 .content img{
+    width: 100%;
+    margin: 16px;
+}
+#containerE .containerE2 .img-containerE2-head{
+    display: flex;
+    align-items: center;
+    background-color: #c2c2c2;
+}
+#containerE .containerE2 .img-containerE2{
+    display: flex;
+    align-items: center;
+}
+#containerE .containerE2 .content .texttext h3{
+    padding: 8px 0px;
+}
