@@ -7,8 +7,15 @@
     #containerA .logo .aca, #containerA .logo .col{
         display: none;
     }
-    #containerA .menu ul{
+    #containerA .menu{
         display:none;
+    }
+    #containerA .image-menu ul{
+        display:flex;
+        list-style:none;
+    }
+    #containerA .image-menu li{
+        margin-right: 50px;
     }
 
     #containerB{
