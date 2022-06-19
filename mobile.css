@@ -4,18 +4,27 @@
         margin: auto;
         padding: 0px;
       }
-    #containerA .logo .aca, #containerA .logo .col{
+    #containerA{
+        display:flex;
+        justify-content: center;
+    }
+    #containerA .logo{
         display: none;
     }
     #containerA .menu{
         display:none;
     }
+    #containerA .image-menu{
+        display:flex;
+    }
     #containerA .image-menu ul{
         display:flex;
+        justify-content: space-between;
         list-style:none;
+        padding: 0;
     }
     #containerA .image-menu li{
-        margin-right: 50px;
+        margin: auto 40px;
     }
 
     #containerB{
@@ -121,10 +130,10 @@
     #containerE .containerE2 .content {
         display: none;
     }
-    footer p{
+    footer div{
         margin: 16px;
     }
-    footer span{
+    footer div a{
         display: none;
     }
 }

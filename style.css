@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     margin: 0px;
     padding: 0px;
     /* background-color: rgb(245, 7, 7); */
@@ -12,11 +12,6 @@
     padding: 0 24px 0 24px;
   }
 
-  header {
-    height: 64px;
-    top: 0;
-  }
-
 #containerA .image-menu ul{
     display:none;
 }
@@ -24,7 +19,10 @@
 #containerA{
     display:flex;
     justify-content:space-between;
-    background-color: white;
+    background-color: rgb(253, 252, 252);
+    height: 64px;
+    top: 0;
+    width: 100%;
 }
 #containerA .logo{
     display:flex;
@@ -40,6 +38,9 @@
 #containerA .logo p, .logo img{
     margin: auto 0;
 }
+#containerA .menu{
+    margin: auto 0;
+}
 #containerA .menu ul{
     display:flex;
     padding: 0;
@@ -47,6 +48,8 @@
 }
 #containerA .menu ul li{
     padding:16px;
+    padding: 0;
+    margin: 20px;
 }
 
 #containerB{
@@ -175,7 +178,7 @@
     flex-direction: column;
 }
 #containerE .containerE2 .content img{
-    width: 100%;
+    width: 35%;
     margin: 16px;
 }
 #containerE .containerE2 .img-containerE2-head{
@@ -189,4 +192,9 @@
 }
 #containerE .containerE2 .content .texttext h3{
     padding: 8px 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
 }
